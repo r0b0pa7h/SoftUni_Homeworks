@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+<!--    <style>
+        li {
+            list-style-type: none;
+            color: white;
+        }
+        .white {
+            color: white;
+        }
+    </style>-->
+    <style>
+        #uls_bot {margin-left: 15%}
+        #uls_bot li { display: inline;padding-left: 10px; }
+        #uls_top {margin-left: 52%}
+        #uls_top li { display: inline;padding-left: 10px; }
+        .links { text-decoration: none; color: white;}
+        #search {display: inline;}
+        #search_button {width: 32; height: 32}
+    </style>
+    <title>Website_Header</title>
+</head>
+<body>
+<!--    <table style="background-color: #234465" cellpadding="15" cellspacing="10" border="1">
+        <tbody>
+        <tr>
+            <td rowspan="2">
+                <a href="https://softuni.bg">
+                    <img src="images/su_header_croped.png">
+                </a>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <img src="images/su_bell_crop.png">
+            </td>
+            <td class="white">USER</td>
+            <td class="white" align="left">SEARCH</td>
+        </tr>
+        <tr>
+            <ul>
+                <td>
+                    <li>NEWS</li>
+                </td>
+                <td>
+                    <li>ABOUT THE UNIVERSITY</li>
+                </td>
+                <td>
+                    <li>TRAINING COURSES</li>
+                </td>
+                <td>
+                    <li>FOR COMPANIES</li>
+                </td>
+                <td>
+                    <li>FORUM</li>
+                </td>
+                <td>
+                    <li>CONTACTS</li>
+                </td>
+            </ul>
+        </tr>
+        </tbody>
+    </table>-->
+<table style="background-color: #234465" width="100%">
+    <tr>
+        <td rowspan="2">
+            <a href="https://softuni.bg">
+                <img src="images/su_header_croped.png">
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table style="background-color: #234465" width="100%">
+                <tr>
+                    <td>
+                        <ul id="uls_top">
+                            <li>
+                                <a href="https://softuni.bg/trainings/seminars/list">
+                                    <img src="images/su_bell_crop.png" />
+                                </a>
+                            </li>
+                            <li><a class="links" href="https://softuni.bg/users/profile/show">USER</a></li>
+                            <li>
+                                <input id="search" name="search" placeholder="Search">
+                            </li>
+                            <li>
+                                <button id="search_button">
+                                    <a href="">
+                                        <img src="images/search.png">
+                                    </a>
+                                </button>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul id="uls_bot">
+                            <li><a class="links" href="https://softuni.bg/news">NEWS</a></li>
+                            <li><a class="links" href="https://softuni.bg/about">ABOUT THE UNIVERSITY</a></li>
+                            <li><a class="links" href="https://softuni.bg/trainings/courses/list">TRAINING COURSES</a></li>
+                            <li><a class="links" href="https://softuni.bg/companies">FOR COMPANIES</a></li>
+                            <li><a class="links" href="https://softuni.bg/forum">FORUM</a></li>
+                            <li><a class="links" href="https://softuni.bg/contacts">CONTACTS</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
